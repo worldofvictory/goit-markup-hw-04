@@ -765,10 +765,9 @@ width: 100%;
      pointer-events: none;
  }
 
- .foot .container { 
+ .foot  { 
     display: flex;
-        align-items: baseline;
-      
+        align-items: baseline;     
  }
  .cards-content-name {
      font-weight: 500;
