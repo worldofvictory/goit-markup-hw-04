@@ -554,17 +554,17 @@ ul {
     display: inline-block;
 }
 
-.footer-describle {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-    width: 264px;
-    padding-bottom: 17.5px;
-    padding-top: 17.5px;
-}
+ .footer-describle {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #F4F4FD;
+     width: 264px;
+     padding-bottom: 100px;
+     padding-top: 100px;
+ }
 
 address.call {
     font-style: normal;
@@ -576,8 +576,16 @@ address.call {
 
 }
 
-.foot {
+.footer {
     background: #2E2F42;
-    height: 312px;
-    margin-top: 20px;
+   
 }
+
+  
+  
+
+  
+
+ 
+
+ 
