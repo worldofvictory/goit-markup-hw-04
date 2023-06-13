@@ -644,6 +644,8 @@ address.call {
 }
   .footer-box {
 margin-right: 120px;
+display: flex;
+    align-items: baseline;
    }
   .footsoc { 
     font-weight: 500;
