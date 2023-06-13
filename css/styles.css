@@ -68,6 +68,11 @@ ul {
 
 .header-menu-item {
 color:#404bbf; }
+.current {
+    position: relative;
+    color: var(--header-menu-link);
+    display: block;
+}
 .current::after {
     content: "";
     left: 0;
