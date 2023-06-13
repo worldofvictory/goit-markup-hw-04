@@ -63,12 +63,11 @@ ul {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
-}
-
-.current {
     position: relative;
 }
 
+.header-menu-item {
+color:#404bbf; }
 .current::after {
     content: "";
     left: 0;
