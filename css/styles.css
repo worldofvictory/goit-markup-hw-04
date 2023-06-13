@@ -642,8 +642,8 @@ address.call {
     width: 40px;
     height: 40px;
 }
-  .footer-link {
-
+  .footer-box {
+margin-right: 120px;
    }
   .footsoc { 
     font-weight: 500;
@@ -731,10 +731,10 @@ width: 100%;
      pointer-events: none;
  }
 
- .foot { 
+ .foot .container { 
     display: flex;
         align-items: baseline;
-        margin-right: 120px;
+      
  }
  .cards-content-name {
      font-weight: 500;
