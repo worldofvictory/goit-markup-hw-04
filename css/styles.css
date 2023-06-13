@@ -767,7 +767,7 @@ width: 100%;
 
  .foot  { 
     display: flex;
-        align-items: baseline;     
+    align-items: baseline;     
  }
  .cards-content-name {
      font-weight: 500;
