@@ -55,6 +55,14 @@ ul {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+.header .container {
+    display: flex;
+    align-items: center;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
 .header-logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -66,6 +74,8 @@ ul {
     color: #404bbf;
     margin-right: 76px;
     position: relative;
+}
+    
 
     .header-menu-link {
             position: relative;
@@ -76,10 +86,15 @@ ul {
             letter-spacing: 0.02em;
             color: var(--navy-blue-color);
         }
-}
 
-.header-menu-link .current {
-color:#404bbf; }
+                
+.heade-menu {
+display: flex;
+gap: 40px; }
+.header-menu-link .current
+ {
+color:#404bbf; 
+}
 .current {
     position: relative;
     color: var(--header-menu-link);
