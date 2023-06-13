@@ -82,6 +82,8 @@ color:#404bbf; }
     height: 4px;
     background-color: var(--header-menu-link);
     border-radius: 2px;
+    bottom: -1px;
+    color: #404bbf;
 }
 .container {
     width: 100%;
