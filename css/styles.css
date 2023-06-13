@@ -564,6 +564,7 @@ color:#404bbf; }
     border-radius: 4px;
     align-content: center;
     justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: row;
     padding: 16px 32px;
