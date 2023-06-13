@@ -97,10 +97,11 @@ color:#404bbf;
 }
 .current {
     position: relative;
-    color: var(--header-menu-link);
+    color: #404bbf;
     display: block;
 }
 .current::after {
+    display: block;
     content: "";
     left: 0;
     bottom: 20px;
