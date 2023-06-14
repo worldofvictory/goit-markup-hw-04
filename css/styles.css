@@ -77,9 +77,7 @@ ul {
     margin-right: 76px;
     position: relative;
 }
-  .header-menu-link .current{
-color: var(--header-menu-link);
-  }
+ 
     
     
 
@@ -90,7 +88,7 @@ color: var(--header-menu-link);
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
-            color: #404bbf;
+         
             
         }
 
@@ -98,13 +96,11 @@ color: var(--header-menu-link);
 .header-menu {
 display: flex;
 gap: 40px; }
-.header-menu-link .current
- {
-color:#404bbf; 
-}
+
+
 .current {
     position: relative;
-    color: #404bbf;
+    color: var(--header-menu-link);
     display: block;
 }
 .current::after {
