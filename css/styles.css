@@ -368,6 +368,7 @@ padding: 32px 0;
     background-color:var(--portfolio-filters);
     border-radius: 50%;
     justify-content: center;
+    height: 100%;
 }
 
 .soc-link span {
@@ -406,7 +407,9 @@ padding: 32px 0;
     justify-content: center;
 }
 
-
+.content-items-icon {
+    fill: var(--button-background-color);
+}
 .mark {
     padding: 32px 0;
     gap: 24px;
