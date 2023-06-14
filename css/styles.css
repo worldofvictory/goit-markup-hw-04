@@ -403,6 +403,9 @@ padding: 32px 0;
 .content-items-icon {
     fill: var(--button-background-color);
 }
+.content-social-icon {
+    fill: var(--button-background-color);
+}
 .mark {
     padding: 32px 0;
     gap: 24px;
