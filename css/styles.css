@@ -473,7 +473,19 @@ padding: 32px 0;
     justify-content: center;
     gap: 24px;
 }
+.link:hover {
+    box-shadow: 
+     0px 1px 6px rgba(46, 47, 66, 0.08), 
+     0px 1px 1px rgba(46, 47, 66, 0.16), 
+     0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
 
+.link:focus {box-shadow:
+     0px 1px 6px rgba(46, 47, 66, 0.08), 
+     0px 1px 1px rgba(46, 47, 66, 0.16),
+      0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+    
 .button-items {
     font-family: inherit;
     font-weight: 500;
@@ -510,12 +522,18 @@ padding: 32px 0;
     color: #FFFFFF;
     background-color: #404BBF;
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+     0px 2px 1px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-portfolio:focus {
     color: #FFFFFF;
     background-color: #404BBF;
     border: 1px solid transparent;
+    box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 2px 1px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .menu {
@@ -690,6 +708,9 @@ address.call {
     width: 40px;
     height: 40px; ;
 }
+.social-media-icon {
+    fill: var(--button-background-color);
+ }
 .footer .social-media-link {
     transition: background-color var(--tran-250);
     width: 100%;
