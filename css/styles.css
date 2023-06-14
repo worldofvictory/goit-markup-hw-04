@@ -695,6 +695,10 @@ address.call {
     width: 100%;
     height: 100%;
     display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d5ae5;
 }
 
 .footer .social-media-link:is(:hover, :focus) {
