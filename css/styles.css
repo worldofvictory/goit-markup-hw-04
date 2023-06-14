@@ -369,17 +369,10 @@ padding: 32px 0;
     border-radius: 50%;
     justify-content: center;
     height: 100%;
+    width: 40px;
+        height: 40px;
 }
 
-.soc-link span {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background-color: #4D5AE5;
-}
 
 .team-our {
     font-weight: 700;
