@@ -599,7 +599,7 @@ padding: 32px 0;
 }
 
 .custo-items {
-    width: calc((100%-120px)/6);
+    width: calc((100%-120px) / 6);
     margin: 0 auto;
     height: 88px;
 
