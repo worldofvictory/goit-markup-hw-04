@@ -77,6 +77,10 @@ ul {
     margin-right: 76px;
     position: relative;
 }
+  .header-menu-link .current{
+color: var(--header-menu-link);
+  }
+    
     
 
     .header-menu-link {
@@ -87,7 +91,7 @@ ul {
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #404bbf;
-            color: var(--header-menu-link);
+            
         }
 
                 
