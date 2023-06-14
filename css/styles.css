@@ -92,7 +92,9 @@ ul {
             
         }
 
-                
+        .header-menu-link.current {
+            color: var(--header-menu-link);
+        }
 .header-menu {
 display: flex;
 gap: 40px; }
@@ -100,7 +102,7 @@ gap: 40px; }
 
 .current {
     position: relative;
-    color: var(--header-menu-link);
+   
     display: block;
 }
 .current::after {
