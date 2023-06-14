@@ -73,7 +73,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #404bbf;
+    color: var(--header-menu-link);
     margin-right: 76px;
     position: relative;
 }
