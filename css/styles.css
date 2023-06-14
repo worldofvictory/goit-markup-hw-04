@@ -365,6 +365,8 @@ padding: 32px 0;
     display: flex;
     align-items: center;
     gap: 24px;
+    background-color:var(--portfolio-filters);
+    border-radius: 50%;
 }
 
 .soc-link span {
@@ -400,6 +402,7 @@ padding: 32px 0;
 .soc-icon-link {
     gap: 24px;
     display: flex;
+    justify-content: center;
 }
 
 
