@@ -729,6 +729,7 @@ address.call {
      height: 24px;
      background-color: var(--border-bttn-color);
      cursor: pointer;
+     padding: 0;
  }
 
  .modal-close-svg {
