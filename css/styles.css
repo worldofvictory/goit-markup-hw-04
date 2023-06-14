@@ -686,9 +686,12 @@ address.call {
     justify-content: center;
     gap: 16px;
 }
-
+.social-media-item {
+    width: 40px;
+}
 .footer .social-media-link {
     transition: background-color var(--tran-250);
+    width: 100%;
 }
 
 .footer .social-media-link:is(:hover, :focus) {
