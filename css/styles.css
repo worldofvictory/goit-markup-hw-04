@@ -465,7 +465,7 @@ padding: 32px 0;
     
 }
 .card-cover-block {
-    position: relative;
+    display: block;
         overflow: hidden;
 }
 .button-menu {
