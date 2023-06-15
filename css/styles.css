@@ -467,6 +467,7 @@ padding: 32px 0;
 .card-cover-block {
 overflow: hidden;
 display: block;
+position: relative;
 }
 .button-menu {
     display: flex;
@@ -478,7 +479,7 @@ display: block;
     gap: 24px;   
 }
 .card-cover-text {
-    position:absolute;
+    position: absolute;
     top: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
