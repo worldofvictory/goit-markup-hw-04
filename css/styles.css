@@ -372,7 +372,12 @@ padding: 32px 0;
     width: 40px;
         height: 40px;
 }
-
+.soc-link:hover { 
+    background-color: #404bbf
+}
+    .soc-link:focus {
+        background-color: #404bbf
+    }
 
 .team-our {
     font-weight: 700;
