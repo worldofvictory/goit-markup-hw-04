@@ -371,6 +371,7 @@ padding: 32px 0;
     height: 100%;
     width: 40px;
         height: 40px;
+        transition: background-color var(--tran-250);
 }
 .soc-link:hover { 
     background-color: #404bbf
