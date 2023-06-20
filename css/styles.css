@@ -774,7 +774,7 @@ address.call {
      border-radius: 4px;
      width: 408px;
      min-height: 584px;
-     padding: 24px;
+     padding: 72px 24px 24px 24px;
      background-color: var(--modal-color) 
  }
 
@@ -794,6 +794,48 @@ address.call {
      cursor: pointer;
      padding: 0;
  }
+.modal-title {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        max-width: 360px;
+        margin-bottom: 16px;
+}
+.modal-input  {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+        border-radius: 4px;
+        background-color: transparent;              
+}
+.modal-label {
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: #8E8F99;
+        margin-bottom: 4px;
+        display: flex;
+ }
+ .modal-field { 
+    margin-bottom: 8px;
+ }
+ .input-wrop { 
+    position: relative;
+ }
+ .modal-svg { 
+    stroke: #2E2F42;
+position: absolute;
+left: 24px;
+top: 50%;
+transform: translateY(-50%);
+ }
+
+
 
  .modal-close-svg {
      transition: fill var(--tran-250);
