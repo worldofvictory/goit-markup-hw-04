@@ -812,6 +812,9 @@ address.call {
         border-radius: 4px;
         background-color: transparent;              
 }
+.modal-input:focus {
+    border-color: #4D5AE5;
+}
 .modal-label {
     font-weight: 400;
         font-size: 12px;
